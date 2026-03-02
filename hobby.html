@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Hobbies | Evelyne Njambi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {box-sizing: border-box; margin:0; padding:0}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 18px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        header a {color:#667eea; text-decoration:none; margin:0 12px; font-weight:600}
+        header a:hover {color:#764ba2}
+
+        .container {
+            max-width:900px;
+            margin:0 auto;
+            background: rgba(255,255,255,0.95);
+            padding:30px;
+            border-radius:12px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.15);
+        }
+        h1 {color:#667eea; font-size:28px; text-align:center; margin-bottom:10px}
+        p.lead {color:#555; text-align:center; margin-bottom:20px}
+
+        .grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:18px}
+        .card {
+            background:linear-gradient(180deg, #ffffff 0%, #f7f8fb 100%);
+            padding:18px; border-radius:10px; box-shadow:0 6px 18px rgba(102,126,234,0.12);
+        }
+        .card h3 {color:#764ba2; margin-bottom:8px; font-size:18px}
+        .card p {color:#444; line-height:1.5; font-size:14px}
+
+        .muted {color:#666; font-size:13px; margin-top:10px}
+
+        footer {text-align:center; margin-top:20px; color:#667eea; font-weight:600}
+
+        @media (max-width:600px){ .container {padding:20px} h1{font-size:22px} }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home.html">Home</a>
+        <a href="personalExp.html">Personal experience</a>
+        <a href="contact.html">Contact me</a>
+        <a href="hobby.html">Hobbies</a>
+    </header>
+
+    <main class="container">
+        <h1>Hobbies & Interests</h1>
+        <p class="lead">Short, focused activities I enjoy outside formal work and studies.</p>
+
+        <div class="grid">
+            <section class="card">
+                <h3>Technology</h3>
+                <p>I follow new technologies closely and experiment with tools, frameworks, and development practices to stay current and improve my craft.</p>
+                <p class="muted">Hands-on: exploring libraries, small projects, and tooling.</p>
+            </section>
+
+            <section class="card">
+                <h3>Novel Reading</h3>
+                <p>I am a passionate reader of novels — I enjoy fiction that broadens perspective, improves empathy, and inspires ideas.</p>
+                <p class="muted">Genres: literary fiction, historical, and science fiction.</p>
+            </section>
+
+            <section class="card">
+                <h3>Chess</h3>
+                <p>Chess helps me practice strategy, patience, and problem solving. I play regularly to sharpen tactical thinking and concentration.</p>
+                <p class="muted">Prefer: rapid and correspondence games.</p>
+            </section>
+
+            <section class="card">
+                <h3>Deep Research</h3>
+                <p>I enjoy deep, focused research when learning new topics — reading papers, tutorials, and experimenting until I understand concepts thoroughly.</p>
+                <p class="muted">Approach: read, summarize, implement small experiments.</p>
+            </section>
+
+            <section class="card">
+                <h3>Community & Compassion</h3>
+                <p>Outside academics I volunteer and take part in community projects — helping those in need and supporting local initiatives is important to me.</p>
+                <p class="muted">Activities: community outreach, volunteer tutoring, and local drives.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Ng'ang'a Evelyne Njambi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<head>
+    <title>My CV | Evelyne Njambi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        header a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        
+        header a:hover {
+            color: #764ba2;
+            border-bottom: 2px solid #764ba2;
+        }
+        
+        .hero-section {
+            max-width: 900px;
+            margin: 0 auto 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 50px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            color: #764ba2;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .intro-text {
+            color: #555;
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        
+        .skills-section {
+            max-width: 900px;
+            margin: 0 auto 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .skills-section h2 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 15px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
+        }
+        
+        .skill-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .about-section {
+            max-width: 900px;
+            margin: 0 auto 40px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .about-section h2 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .about-section p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .about-section p:last-child {
+            margin-bottom: 0;
+        }
+        
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: #667eea;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            
+            .tagline {
+                font-size: 18px;
+            }
+            
+            .hero-section, .skills-section, .about-section {
+                padding: 30px 20px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>    
+        <a href="home.html">Home</a>
+        <a href="personalExp.html">Personal experience</a>
+        <a href="contact.html">Contact me</a>
+        <a href="hobby.html">Hobbies</a>
+    </header>
+
+    <section class="hero-section">
+        <div class="profile-image">EN</div>
+        <h1>Ng'ang'a Evelyne Njambi</h1>
+        <p class="tagline">Backend Developer | Full-Stack Enthusiast</p>
+        <p class="intro-text">
+            Hello! I'm a passionate Backend Developer with growing expertise in Frontend Development. 
+            Currently pursuing a Bachelor's degree in Software Engineering at Kisii University. 
+            I specialize in creating responsive, user-friendly applications and solving complex problems through elegant code.
+        </p>
+    </section>
+
+    <section class="skills-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">Django</div>
+            <div class="skill-item">Django REST API</div>
+            <div class="skill-item">Java</div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h2>About My Journey</h2>
+        <p>
+            I started my coding journey by learning the fundamentals of web development: HTML, CSS, and JavaScript. 
+            These languages became the foundation for my passion for creating beautiful and functional web applications. 
+            What I love most about programming is the problem-solving aspect and the incredible satisfaction of bringing 
+            ideas to life through code.
+        </p>
+        <p>
+            Currently, I'm focused on expanding my knowledge in full-stack development and contributing to meaningful projects 
+            that make a real difference in society. I believe in continuous learning and staying updated with the latest technologies 
+            and best practices in the industry.
+        </p>
+        <p>
+            Looking ahead, I'm excited about exploring cybersecurity and other cutting-edge areas of technology. 
+            My goal is to become a well-rounded developer who can build secure, scalable, and user-centric applications 
+            that positively impact users and organizations.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Ng'ang'a Evelyne Njambi . All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

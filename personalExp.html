@@ -1,0 +1,162 @@
+<html>
+<head>
+    <title>Personal Experience</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        header a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+        header a:hover {
+            color: #764ba2;
+            border-bottom: 2px solid #764ba2;
+        }
+        .content-container {
+            max-width: 900px;
+            margin: 0 auto 40px;
+            background: rgba(255,255,255,0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .timeline {
+            list-style: none;
+            position: relative;
+            padding-left: 30px;
+        }
+        .timeline:before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #667eea;
+        }
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -3px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #667eea;
+            border-radius: 50%;
+        }
+        .timeline-item h3 {
+            font-size: 20px;
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+        .timeline-item p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .role-list {
+            margin-top: 10px;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: #667eea;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        footer p {
+            color: #333;
+            font-weight: 600;
+        }
+        @media (max-width: 768px) {
+            .content-container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home.html">Home</a>
+        <a href="personalExp.html">Personal Experience</a>
+        <a href="contact.html">Contact me</a>
+        <a href="hobby.html">Hobbies</a>
+    </header>
+
+    <div class="content-container">
+        <h2>Personal & Professional Journey</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <h3>2024 - Present</h3>
+                <p><strong>Kisii University</strong> &ndash; Pursuing Bachelor's degree in Software Engineering.</p>
+                <p>Awarded Academic Excellence Award for outstanding performance.</p>
+            </li>
+            <li class="timeline-item">
+                <h3>2025 - Present</h3>
+                <p><strong>Doitrix Tech Labs</strong> &ndash; Junior Developer & Quality Assurance Analyst.</p>
+                <ul class="role-list">
+                    <li>Assist in developing backend features using Python and Django.</li>
+                    <li>Participate in frontend tasks with HTML/CSS/JavaScript to support full-stack projects.</li>
+                    <li>Performed manual and automated QA testing to ensure application reliability.</li>
+                    <li>Collaborated with cross-functional teams on project planning and issue resolution.</li>
+                </ul>
+            </li>
+            <li class="timeline-item">
+                <h3>2019 - 2023</h3>
+                <p><strong>Jomo Kenyatta Girls' High School</strong> &ndash; Secondary Education.</p>
+                <p>Awards:</p>
+                <ul class="role-list">
+                    <li>Best in Computer Studies</li>
+                    <li>Best in Chemistry</li>
+                    <li>Best in Mathematics (3×)</li>
+                    <li>Awarded best Chess player(Jomo Kenyatata Girls' High School)</li>
+                    <li>Best Student in Nakuru, Nyandarua, Laikipia joint examination</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2026 Ng'ang'a Evelyne Njambi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
